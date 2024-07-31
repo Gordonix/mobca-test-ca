@@ -1,17 +1,25 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "CB9E92BAS8.test.pl.creditagricole.mobilCa",
-                "paths": [
-                    "*"
-                ],"components": [
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "CB9E92BAS8.test.pl.creditagricole.mobilCa", "CB9E92BAS8.pl.creditagricole.mobilCa"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
           {
             "/": "/*"
           }
         ]
-            }
-        ]
-    }
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "CB9E92BAS8.test.pl.creditagricole.mobilCa",  "CB9E92BAS8.pl.creditagricole.mobilCa"
+    ]
+  }
 }
