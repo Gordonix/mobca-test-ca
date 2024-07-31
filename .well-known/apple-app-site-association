@@ -6,7 +6,11 @@
                 "appID": "CB9E92BAS8.test.pl.creditagricole.mobilCa",
                 "paths": [
                     "*"
-                ]
+                ],"components": [
+          {
+            "/": "/*"
+          }
+        ]
             }
         ]
     }
